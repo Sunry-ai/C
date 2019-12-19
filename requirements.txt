@@ -1,1 +1,4 @@
-numpy wxPython Pillow unittest
+numpy
+wxPython
+Pillow
+unittest
