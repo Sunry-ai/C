@@ -1,4 +1,5 @@
 import unittest
+from "scripts/SE" import *
 
 class MapTestCase(unittest.TestCase):
     def setUp(self):
