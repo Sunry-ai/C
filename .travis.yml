@@ -5,4 +5,4 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - python3 scripts/pytest
+  - python3 scripts/pytest.py

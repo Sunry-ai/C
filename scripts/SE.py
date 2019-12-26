@@ -48,6 +48,19 @@ class Map:
 
 #import unittest
 
+class MyFrame1_impl (gui.MyFrame1):
+    
+    def __init__( self, parent ):
+        gui.MyFrame1.__init__(self, parent)
+        self.current_map = Map("Empty")
+        
+    def create_new_map( self, event ):
+        newmap().Show()
+
+if __name__ == "__main__":
+    app = wx.App()
+    frame = MyFrame1_impl(None).Show()
+    app.MainLoop()
 
 
 
